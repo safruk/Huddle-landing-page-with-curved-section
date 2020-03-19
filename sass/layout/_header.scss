@@ -1,0 +1,33 @@
+//Header Section
+.header{
+  // margin-top: 14rem;
+ margin: 14rem 0 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  animation: moveInBottom .8s ease-out;
+  max-width: 100rem;
+
+@include respond(tab-port){
+  max-width: 60rem;
+}
+
+  & > :not(:last-child){
+    margin-bottom: 2rem; //or gap: 2rem;
+  }
+
+  & > :last-child{
+    margin: 2rem 0;
+  }
+  &__para{
+    max-width: 56rem;
+    width: 100%;
+
+    @include respond(tab-port){
+      max-width: 40rem;
+    }
+
+  }
+}
