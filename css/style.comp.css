@@ -67,7 +67,7 @@ body {
   justify-content: center;
   align-items: center; }
   .container > * {
-    margin: 7rem 0; }
+    margin: 7.5rem 0; }
 
 body {
   font-family: 'Open Sans', sans-serif;
@@ -185,7 +185,7 @@ body {
         width: 40%; } }
 
 .header {
-  height: 75vh;
+  margin: 14rem 0 1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
