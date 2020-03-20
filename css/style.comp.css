@@ -185,7 +185,7 @@ body {
         width: 40%; } }
 
 .header {
-  height: 75vh;
+  height: 90vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
