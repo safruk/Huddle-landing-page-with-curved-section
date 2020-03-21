@@ -229,7 +229,7 @@
     align-items: flex-start;
     // gap: 7rem;
     flex-wrap: wrap;
-    padding: 11rem;
+    padding: 11rem 11rem 5rem;
     & > :not(:last-child){
       margin-bottom: 7rem;
     }
@@ -239,6 +239,7 @@
 
     @include respond(phone-lg){
       flex-direction: column;
+      padding: 5rem;
     }
   }
 
@@ -257,7 +258,11 @@
 
     &__para{
      //padding-right: 33%;
-      width: 30rem;
+      width: 65%;
+
+      @include respond(tab-port){
+        width: 100%;
+      }
     }
 
     &__directory{
@@ -294,9 +299,9 @@
     }
 
     &__para{
-      padding-right: 35%;
+      padding-right: 20%;
       @include respond(tab-port){
-        padding: 0;
+        padding-right: 0;
       }
     }
   }
@@ -347,4 +352,5 @@
   color: var(--color-neutral-light);
   flex: 1;
   text-align: center;
+  font-size: 1.3rem;
 }
