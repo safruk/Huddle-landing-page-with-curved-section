@@ -253,12 +253,12 @@
 
 
     & >:not(:last-child){
-      margin-bottom: 2.5rem;
+      margin-bottom: 3rem;
     }
 
     &__para{
      //padding-right: 33%;
-      width: 65%;
+      width: 70%;
 
       @include respond(tab-port){
         width: 100%;
@@ -273,11 +273,12 @@
   }
 
   &__logo{
+    height: 4.5rem;
     display: block;
     filter: brightness(0) invert(1);
 
-    @include respond(tab-land){
-      width: 50%;
+    @include respond(tab-port){
+      height: 4rem;
     }
   }
 
@@ -295,11 +296,11 @@
     }
 
     & >:not(:last-child){
-      margin-bottom: 2rem;
+      margin-bottom: 3rem;
     }
 
     &__para{
-      padding-right: 20%;
+      padding-right: 10%;
       @include respond(tab-port){
         padding-right: 0;
       }

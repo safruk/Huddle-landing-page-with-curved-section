@@ -61,28 +61,20 @@ body{
 //footer
 .footer__heading{
   font-family: inherit;
-  font-size: 2.2rem;
+  font-size: 2.5rem;
   text-transform: uppercase;
 }
 .footer__para{
   font-family: inherit;
   font-weight: inherit;
-  font-size: 1.6rem;
+  font-size: inherit;
   line-height: inherit;
-
-  @include respond(tab-port){
-    font-size: inherit;
-  }
 }
 .footer__info__para,
 .footer__newsletter__para{
   font-family: inherit;
-  font-size: 1.5rem;
+  font-size: inherit;
   font-weight: 600;
   line-height: inherit;
 
-  @include respond(tab-port){
-    font-size: inherit;
-
-  }
 }
